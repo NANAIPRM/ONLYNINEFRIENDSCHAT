@@ -55,7 +55,7 @@ const MemberIdPage = async ({ params, searchParams }: MemberIdPageProps) => {
     memberOne.profileId === profile.id ? memberTwo : memberOne;
 
   return (
-    <div className="bg-white dark:bg-[#313338] flex flex-col h-full">
+    <div className="bg-[url('https://scontent.fbkk28-1.fna.fbcdn.net/v/t1.18169-9/400324_486100698101772_1494616309_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=4dc865&_nc_eui2=AeHgGdmPV-GaliLq7Lm1kW60poZ20OmNkFOmhnbQ6Y2QUyTvNmBstBe-_LqzIUOVCsFjsYza-oH9caubbEYq1ptz&_nc_ohc=Wz3363CUQwQAX-f-WeI&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDT-odFfhk6ySmF_8zpMRTK9IaGBWOvnQ3Pp-DFEqZJxw&oe=655C258E')] flex flex-col h-full">
       <ChatHeader
         imageUrl={otherMember.profile.imageUrl}
         name={otherMember.profile.name}
